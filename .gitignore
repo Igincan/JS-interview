@@ -55,4 +55,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env    
+.env
+
+# IDEs and code editors
+.vscode/
