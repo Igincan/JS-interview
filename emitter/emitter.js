@@ -4,7 +4,7 @@
 class EventEmitter {
 
     /**
-     * @type {Map<Map<(data: any) => void>>}
+     * @type {Map<string, Map<number, (data: any) => void>>}
      */
     #handlersByEventName = new Map();
     #highestId = 0;
